@@ -8,5 +8,5 @@
 
 ####To use bootstrap jade mixins 
 
-1) jade-bootstrap webpage - http://rajasegar.github.io/JADE-Bootstrap/components.html
-2) github repo - https://github.com/rajasegar/JADE-Bootstrap
+1. jade-bootstrap webpage - http://rajasegar.github.io/JADE-Bootstrap/components.html
+2. github repo - https://github.com/rajasegar/JADE-Bootstrap
