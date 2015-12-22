@@ -1,0 +1,23 @@
+{
+  "name": "jade-less-bootstrap",
+  "version": "0.1.0",
+  "authors": [
+    "Nikolay Starikov <nickolyastar@gmail.com>"
+  ],
+  "description": "Bootstrap framework written using less files and mixins in JADE",
+  "keywords": [
+    "jade",
+    "bootstrap",
+    "frontend",
+    "less",
+    "gulp"
+  ],
+  "dependencies": {
+    "jquery": "1.11",
+    "jade-bootstrap": "*",
+    "bootstrap-less": "~3.3.4",
+    "bemto": "~0.2.2",
+    "html5shiv": "~3.7.3",
+    "jquery.maskedinput": "~1.4.1"
+  }
+}

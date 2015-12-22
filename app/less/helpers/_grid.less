@@ -1,0 +1,104 @@
+
+.row {
+	width: 960px;
+	padding: 0 ;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0;
+	clear: both;
+}
+
+.row img{
+	max-width: 100%;
+	display: block;
+}
+
+.row>.col{
+	font-size: 16px;
+	min-height: 10px;
+}
+
+.col, .box{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col.middle{
+	vertical-align: middle;
+}
+
+.col img{
+	display: block;
+}
+
+.container{
+	overflow: hidden;
+}
+
+.row .left{
+	float: left;
+}
+
+.row .right{
+	float: right;
+}
+
+.right-indent{
+	margin-right: 20px;
+}
+
+.left-indent{
+	margin-left: 20px;
+}
+
+
+.col1 { width: 8.3%; }
+.col2 { width: 16.6%; }
+.col3 { width: 24.5%; }
+.col4 { width: 33.2%; }
+.col5 { width: 41.5%; }
+.col6 { width: 49%; }
+.col7 { width: 58.5%; }
+.col8 { width: 66.4%; }
+.col9 { width: 75%; }
+.col10 { width: 83%; }
+.col11 { width: 91.5%; }
+.col12 { width: 100%; }
+
+.text-center{
+	text-align: center;
+}
+
+.text-justify{
+	text-align: justify;
+	line-height: 0;
+	font-size: 0;
+	text-justify: newspaper;
+	zoom: 1;
+	text-align-last: justify;
+}
+
+
+.text-justify:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.vertical-middle{
+	.col{
+		vertical-align: middle;
+	}
+}
+
+.vertical-middle:before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 100%;
+}
+
