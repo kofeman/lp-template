@@ -3,8 +3,9 @@
 ###To start project:
 
 1. `git clone https://github.com/kofeman/bootstrap-jade-less-template.git`
-2. `npm init`
-3. `gulp`
+2. `mv bootstrap-jade-less-template/{.,}* .; rmdir bootstrap-jade-less-template`
+3. `npm i; bower i`
+4. `gulp`
 
 ####To use bootstrap jade mixins 
 
