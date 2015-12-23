@@ -9,6 +9,7 @@ var gulp = require('gulp'),
 	rename = require("gulp-rename"),
 	clean = require('gulp-clean'),
 	prettify = require('gulp-html-prettify'),
+	ghPages = require('gulp-gh-pages'),
 	browserSync = require("browser-sync"),
 	reload = browserSync.reload;
 
@@ -192,4 +193,11 @@ gulp.task('build', [ 'jade', 'less', 'js', 'bootstrap', 'images', 'transfer-file
 //default task
 
 gulp.task('default', [ 'build', 'webserver', 'watch'], function() {});
+
+//deploy
+
+gulp.task('deploy', function() {
+	return gulp.src('./dist/**/*')
+		.pipe(ghPages());
+});
 
