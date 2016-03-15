@@ -1,4 +1,4 @@
-//- include ../bower_components/bemto/bemto
+include ../bower_components/bemto/bemto
 
 doctype html
 html(lang="en")
@@ -10,17 +10,17 @@ html(lang="en")
 		title bootstrap less template
 		block styles
 			link(rel="stylesheet",href="css/bootstrap.min.css")
-			link(rel="stylesheet",href="css/plugins.css")
+			//link(rel="stylesheet",href="css/plugins.css")
 			link(rel="stylesheet",href="css/style.css")
 
 		<!--[if lt IE 9]>
 		<script src="js/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-	body(data-spy="scroll",data-target=".scrollspy")
+	body
 		block body
 		block scripts
 			script(src="js/jquery.min.js")
 			script(src="js/bootstrap.min.js")
-			script(src="js/plugins.js")
+			//script(src="js/plugins.js")
 			script(src="js/main.js")
