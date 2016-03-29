@@ -1,4 +1,4 @@
-# bootstrap-jade-less-template
+# Landing page template
 
 ###Start project:
 
