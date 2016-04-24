@@ -4,8 +4,9 @@
 
 1. `git clone https://github.com/kofeman/lp-template.git`
 2. `mv lp-template/{.,}* .; rmdir lp-template`
-3. `npm i; bower i`
-4. `gulp`
+3. `npm install; bower install`
+4. `gulp build`
+5. `gulp`
 
 ###2. Add your lp images
 
